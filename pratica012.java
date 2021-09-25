@@ -11,20 +11,20 @@ public class Pratica012 {
 		double altura, peso;
 		int cep, numero;
 		
-		System.out.println("=====CADSTRO=====");
+		System.out.println("=====CADASTRO=====");
 		
-		System.out.println("Infome o seu nome");
+		System.out.println("Informe o seu nome");
 		nome = input.nextLine();
 		
 		System.out.println("Informe a sua altura");
 		altura = input.nextDouble();
 		
-		System.out.println("Infome o seu peso");
+		System.out.println("Informe o seu peso");
 		peso = input.nextDouble();
 		
 		input.nextLine();
 		
-		System.out.println("Infome o nome da sua rua");
+		System.out.println("Informe o nome da sua rua");
 		rua = input.nextLine();
 		
 		System.out.println("Informe o numero da sua residencia");
@@ -36,15 +36,15 @@ public class Pratica012 {
 		System.out.println("Informe o nome do seu bairro");
 		bairro = input.nextLine();
 		
-		System.out.println("Infome o seu cep");
+		System.out.println("Informe o seu cep");
 		cep = input.nextInt();
 		
 		input.nextLine();
 		
-		System.out.println("Infome o nome da sua cidade");
+		System.out.println("Informe o nome da sua cidade");
 		cidade = input.nextLine();
 		
-		System.out.println("Infome o nome do seu estado");
+		System.out.println("Informe o nome do seu estado");
 		estado = input.nextLine();
 	
 		System.out.println("Qual a sua situação de cadastro: [ATIVO] ou [INATIVO]");
