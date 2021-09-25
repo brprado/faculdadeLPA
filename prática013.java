@@ -2,7 +2,7 @@ package br.ucsal;
 
 import java.util.Scanner;
 
-public class Prática013 {
+public class Pratica013 {
 
 	public static void main(String[] args) {
 		double valor1, valor2, resultado;
