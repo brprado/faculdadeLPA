@@ -32,36 +32,36 @@ public class Questao03 {
 		
 	
    
-	}if (escolha == 'D') {
-		System.out.println("Para qual moeda você quer converter? REAL(D) EURO(E)");
-		escolha2 = input.next().charAt(0);
-		
-		if(escolha2 == 'R') {
-			realDol = valor * 5.39;
-			System.out.println("O seu valor convertido do DOLAR para REAL é igual a " + realDol);
-			
-		}else if(escolha2 == 'E') {
-			dolEur = valor * 0.86;
-			System.out.println("O seu valor convertido do DOLAR para o EURO é igual a " + dolEur);
-	}
-	
+		}if (escolha == 'D') {
+			System.out.println("Para qual moeda você quer converter? REAL(D) EURO(E)");
+			escolha2 = input.next().charAt(0);
 
-   
-	}if (escolha == 'E') {
-		System.out.println("Para qual moeda você quer converter? REAL(D) DOLAR(E)");
-		escolha2 = input.next().charAt(0);
-		
-		if(escolha2 == 'R') {
-			realEur = valor * 6.30;
-			System.out.println("O seu valor convertido do EURO para REAL é igual a " + realEur);
-			
-		}else if(escolha2 == 'D') {
-			dolEur = valor * 1.17;
-			System.out.println("O seu valor convertido do EURO para o DOLAR é igual a " + dolEur);
- }
-}
-input.close();
-		
+			if(escolha2 == 'R') {
+				realDol = valor * 5.39;
+				System.out.println("O seu valor convertido do DOLAR para REAL é igual a " + realDol);
 
+			}else if(escolha2 == 'E') {
+				dolEur = valor * 0.86;
+				System.out.println("O seu valor convertido do DOLAR para o EURO é igual a " + dolEur);
+		}
+
+
+
+		}if (escolha == 'E') {
+			System.out.println("Para qual moeda você quer converter? REAL(D) DOLAR(E)");
+			escolha2 = input.next().charAt(0);
+
+			if(escolha2 == 'R') {
+				realEur = valor * 6.30;
+				System.out.println("O seu valor convertido do EURO para REAL é igual a " + realEur);
+
+			}else if(escolha2 == 'D') {
+				dolEur = valor * 1.17;
+				System.out.println("O seu valor convertido do EURO para o DOLAR é igual a " + dolEur);
+	 }
 	}
-}
+	input.close();
+
+
+		}
+	}
