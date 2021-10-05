@@ -13,14 +13,14 @@ public class CalculadoraSwitch {
 		System.out.print("Informe um numero: ");
 		double n2 =  input.nextDouble();
 
-		System.out.println("Informe a operação que deseja realizar");
-		System.out.println("SOMA[1] SUBTRAÇÃO[2] DIVISÃO[3] MULTIPLICAÇÃO[4]: ");
+		System.out.println("Informe a operação que deseja realizar\n");
+		System.out.print("SOMA[1] \nSUBTRAÇÃO[2] \nDIVISÃO[3] \nMULTIPLICAÇÃO[4]\n\nSUA ESCOLHA: ");
 		int operacao = input.nextInt();
 
 		if(n1 > 0 && n2 > 0) {
 
-			switch (operacao) {
-			case 1:
+			switch (operacao) { //chave (voce pega uma chave)
+			case 1: //porta (você abre uma porta)
 				System.out.println("soma = " + (n1 + n2));
 				break;
 			case 2:
@@ -32,7 +32,7 @@ public class CalculadoraSwitch {
 			case 4:
 				System.out.println("multiplicação = " + (n1 * n2));
 				break;
-			default:
+			default: //else
 				System.out.println("OPERAÇÃO INVÁLIDA");
 				break;
 			}
