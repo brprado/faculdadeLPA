@@ -18,7 +18,7 @@ public class CalculadoraSwitch {
 		int operacao = input.nextInt();
 		
 		if(n1 > 0 && n2 > 0) {
-		
+			
 			switch (operacao) {
 			case 1:
 				System.out.println("soma = " + (n1 + n2));
@@ -27,13 +27,13 @@ public class CalculadoraSwitch {
 				System.out.println("subtração = " + (n1 - n2));
 				break;
 			case 3:
-				System.out.println("divisão = " + (n1 / n2));
+				float n1Div = n1;
+				float n2Div = n2;
+				System.out.println("divisão = " + (n1Div / n2Div));
 				break;
 			case 4:
 				System.out.println("multiplicação = " + (n1 * n2));
 				break;
-				
-	
 			default:
 				System.out.println("OPERAÇÃO INVÁLIDA");
 				break;
