@@ -39,7 +39,7 @@ public class CalculadoraSwitch {
 
 
 		}else {
-			System.out.println("Informes valores maiores do que 1");
+			System.out.println("Informes valores maiores ou iguais a 1");
 		}
 		input.close();
 	}
