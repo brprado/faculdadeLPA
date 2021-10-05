@@ -37,7 +37,7 @@ public class CalculadoraSwitch {
 			System.out.println("OPERAÇÃO INVÁLIDA");
 			break;
 		}
-
+		input.close();
 	}
 
 }
