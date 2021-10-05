@@ -6,7 +6,6 @@ public class Semana {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println();
 		
 		System.out.println("Informe o número do dia da semana \ne veja o nome correspondente");
 		int diaSemana = input.nextInt();
