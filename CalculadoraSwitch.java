@@ -7,10 +7,10 @@ public class CalculadoraSwitch {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Informe um numero: ");
+		System.out.print("Informe um numero: ");
 		int n1 = (int) input.nextDouble();
 		
-		System.out.println("Informe um numero: ");
+		System.out.print("Informe um numero: ");
 		int n2 = (int) input.nextDouble();
 		
 		System.out.println("Informe a operação que deseja realizar");
