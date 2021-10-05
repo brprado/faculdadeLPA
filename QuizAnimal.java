@@ -12,12 +12,12 @@ public class QuestionarioAnimal {
 		
 		switch (animalEscolhido) {
 		case "a": {
-			System.out.println("VOCÊ ACERTOU");
+			System.out.println("VOCÊ ACERTOU!");
 			System.out.println("+1 Ponto");
 			break;
 		}
 		case "b": {
-			System.out.println("VOCÊ ACERTOU");
+			System.out.println("VOCÊ ACERTOU!");
 			System.out.println("+1 Ponto");
 			break;
 		}
