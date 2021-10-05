@@ -38,10 +38,11 @@ public class CalculadoraSwitch {
 				System.out.println("OPERAÇÃO INVÁLIDA");
 				break;
 			}
-			input.close();
+			
 		
 		}else {
 			System.out.println("Informes valores maiores do que 1");
 		}
+		input.close();
 	}
 }
