@@ -14,7 +14,7 @@ public class CalculadoraSwitch {
 		int n2 = (int) input.nextDouble();
 		
 		System.out.println("Informe a operação que deseja realizar");
-		System.out.println("SOMA[1] SUBTRAÇÃO[2] DIVISÃO[3] MULTIPLICAÇÃO[4]");
+		System.out.println("SOMA[1] SUBTRAÇÃO[2] DIVISÃO[3] MULTIPLICAÇÃO[4]: ");
 		int operacao = input.nextInt();
 		
 		if(n1 > 0 && n2 > 0) {
@@ -45,4 +45,3 @@ public class CalculadoraSwitch {
 		}
 	}
 }
-
