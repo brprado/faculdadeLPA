@@ -7,7 +7,7 @@ public class While {
 		while (var < 50){
 			var++;
 			if(var % 2 == 1) {
-				System.out.println(var);
+				System.out.print(var);
 			}
 			
 		}
