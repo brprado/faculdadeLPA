@@ -7,14 +7,14 @@ public class Repeticao {
 	public static void main(String[] args) {
 
 		int cont = 0, soma = 0, contPar = 0, contImpar = 0, contImparDiv = 0;
-
 		Scanner input = new Scanner(System.in);
+		
 		System.out.print("informe um valor de 50 a 100 para ser "
 				+ "\no valor limite desta PA\n-->");
 		int limitePa = input.nextInt();
 
 		if (limitePa < 50 || limitePa > 100) { 
-
+			
 			while(limitePa < 50 || limitePa > 100) { //ENQUANTO O VALOR FOR INVÁLIDO ELE REPETE
 				System.out.println("Informe um limite válido. entre 50 e 100:");
 				limitePa = input.nextInt();
@@ -30,8 +30,7 @@ public class Repeticao {
 							contPar++;
 						}else if(i % 2 != 0 && i % 3 == 0) {
 							contImparDiv++;
-						}
-						else {
+						}else {
 							contImpar++;
 						}
 					}
@@ -66,8 +65,7 @@ public class Repeticao {
 					contPar++;
 				}else if(i % 2 != 0 && i % 3 == 0) {
 					contImparDiv++;
-				}
-				else {
+				}else {
 					contImpar++;
 				}
 			}
