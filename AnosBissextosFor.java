@@ -7,10 +7,10 @@ public class Repeticao {
 		int anoFinal = 2032;
 
 		System.out.println("os seguintes anos são bissextos: ");
-		for(int ano = 1900; ano <= anoFinal; ano++) {
+		for(int i = 1900; i <= anoFinal; i++) {
 
-			if(ano % 4 == 0 && ano % 100 != 0) {
-				System.out.print(ano + " ");
+			if(i % 4 == 0 && i % 100 != 0 || i % 400 == 0) {
+				System.out.print(i + " ");
 
 			}else {
 				continue;
