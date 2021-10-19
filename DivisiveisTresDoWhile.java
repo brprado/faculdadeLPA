@@ -10,11 +10,11 @@ public class Repeticao {
 		
 		do {
 			
-      if(valor % 3 == 0) {
+			if(valor % 3 == 0) {
 				cont++;
 				System.out.println(valor);
 			}
-      
+			
 			valor--;
 			
 
