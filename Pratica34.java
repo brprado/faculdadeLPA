@@ -6,8 +6,8 @@ import java.util.*;
 public class Pratica34 {
     public static int indiceNome = 0;
     public static Scanner scanner = new Scanner(System.in);
-    public static String[] nomes = new String[6];
     public static final int QTDE_ALUNOS = 6;
+    public static String[] nomes = new String[QTDE_ALUNOS];
 
     public static String obterNomes(int tam) {
         for (int i = 0; i < tam; i++){
